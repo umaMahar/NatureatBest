@@ -1,0 +1,29 @@
+<h1>Listing carts</h1>
+
+
+<!--<% @carts.each do |cart| %> -->
+  <!-- Need to include product image for better cart display-->
+
+  <% @cart.line_items.each do |item| %> 
+   <ul>
+      <li>
+        <%= item.product.id%>
+      </li>
+    </ul> 
+   <% end %>
+   
+  <table> 
+  <tr>
+    <td><%= link_to 'Show', cart %></td>
+    <td><%= link_to 'Edit', edit_cart_path(cart) %></td>
+    <td><%= link_to 'Destroy', cart, method: :delete, data: { confirm: 'Are you sure?'} %></td>
+  </tr>
+</table>
+
+<br />
+
+<!-- <%= link_to 'New Cart', new_cart_path %> -->
+
+<%= link_to 'Edit', @product %> |
+<%= link_to 'Back', products_path %>
+<%= link_to 'Products', products_path(:prodtype => 'Picture') %>

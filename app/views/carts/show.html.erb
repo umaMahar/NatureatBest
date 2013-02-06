@@ -1,0 +1,16 @@
+<% if notice %>
+	<p id="notice"><%= notice %></p>
+<% end %>
+
+<h2>Your Cart items</h2>
+<ul>
+	<% @cart.line_items.each do |item| %>  
+	<!-- Need to include product image for better cart display-->
+		<li><%= item.product.id%></li>	
+		<li><%= item.quantity %> &times; <%= item.product.prod_desc %></li>
+	<% end %>
+</ul>
+
+<%= link_to 'Edit', edit_cart_path(@cart) %>  |
+<%= link_to 'Products', products_path(:prodtype => 'Picture') %>
+

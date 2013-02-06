@@ -1,0 +1,52 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require_self
+ *= require_tree .
+ */
+
+#banner {
+	background: #e0f8f8;
+	padding: 10px;
+	border-bottom: 2px solid;
+	font: italic 40px/40px "Times new Roman", serif; 
+	text-align: left;
+	color: #282;
+	
+
+	img{
+		margin-top: 0px;
+	
+	}
+}
+
+.colorchange{
+	text-transform: 
+	color:#228822;
+}
+
+.list_line_odd {
+    background-color: #FFFAFA;
+}
+
+.main{
+width: 450px;
+height: 300px;
+backgraound-color: #9c9;
+margin-top: 20px;
+/*To get the curved edges on boxes and you have to specify for Mozilla browser.*/
+border-radius: 15px;
+-moz-border-radius: 15px;
+
+/*opacity: 0.1;  ( this makes it light)*/
+	<td>{ font-height = 30px;
+
+	}
+}

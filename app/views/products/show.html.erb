@@ -1,0 +1,33 @@
+
+
+<h2> Product you selected: </h2>
+<!-- <p id="notice"><%= notice %></p> -->
+
+<table >
+  <tr class = "<%= cycle('list_line_odd','list_line_even')%>" >
+    <td><b>Title:</b></td>
+    <td><%= @product.prod_name  %></td>
+  </tr>
+  <tr class = "<%= cycle('list_line_odd','list_line_even')%>">
+    <td>Description:</td>
+    <td><%= @product.prod_desc %></td>
+  </tr>
+  <tr class = "<%= cycle('list_line_odd','list_line_even')%>">
+    <td>Image :</td>
+    <td > <%= image_tag(@product.prod_img, class: 'list_image') %> </td>
+  </tr>
+  <tr class = "<%= cycle('list_line_odd','list_line_even')%>">
+    <td>Price:</td>
+    <td><%= number_to_currency(@product.prod_price) %></td>
+  </tr>
+  <tr class = "<%= cycle('list_line_odd','list_line_even')%>">
+    <td><b>Type:</b></td>
+    <td><%= @product.ProdType  %></td>
+  </tr>
+
+</table> 
+<%= link_to 'Edit', edit_product_path(@product) %> |
+<%= link_to 'Back', products_path %>
+
+
+

@@ -1,0 +1,27 @@
+<h1>Store#index</h1>
+<p>Find me in app/views/store/index.html.erb</p>
+
+<% if notice %>
+<p> id="notice"><%= notice %> </p>
+
+<% end %>
+
+<h1> your Catalog : </h1> </br>
+
+<% @products.each do |product| %>
+<div class="entry">
+	<%= image_tag(product.prod_img) %>
+	<h3><%= product.prod_name %></h3>
+
+<<br\><%= sanitize(product.prod_desc) %><br\> 
+	<div class="price_line">
+		<span class="price"><%= number_to_currency(product.prod_price) %> </span>
+		<%= button_to 'Add to Cart', line_items_path(product_id: product) %>
+				<!-- <span class="price"><%= sprintf("$%0.02f",product.prod_price) %></span> -->
+	</div>
+</div>
+<%end%>
+
+<%= link_to 'View Cart - Line Items', line_items_path %>
+
+
