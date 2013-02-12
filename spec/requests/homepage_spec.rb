@@ -6,5 +6,8 @@ describe "Homepage" do
   		visit '/home/naturehomepage' 
   		page.should have_selector('h2', :text => 'Recycle')
   	end
+    it "should have products link" do
+      page.click()
+
   end
 end

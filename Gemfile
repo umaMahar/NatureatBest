@@ -21,8 +21,9 @@ group :assets do
 end
 
 gem 'jquery-rails', '2.0.2'
-gem 'pg', '0.12.2'
-
+group :production do
+	gem 'pg', '0.12.2'
+end
 
 # group :production do
 #   gem 'pg', '0.12.2'
