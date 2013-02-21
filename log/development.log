@@ -82148,3 +82148,512 @@ Served asset /lava.jpg - 304 Not Modified (7ms)
 
 Started GET "/assets/humming-bird.jpeg" for 127.0.0.1 at 2013-02-12 13:41:03 -0500
 Served asset /humming-bird.jpeg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-02-13 10:31:50 -0500
+Connecting to database specified by database.yml
+Processing by HomeController#naturehomepage as HTML
+  Rendered home/naturehomepage.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 87ms (Views: 86.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-13 10:31:51 -0500
+Served asset /application.css - 200 OK (29ms)
+
+
+Started GET "/assets/carts.css?body=1" for 127.0.0.1 at 2013-02-13 10:31:51 -0500
+Served asset /carts.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-02-13 10:31:51 -0500
+Served asset /home.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2013-02-13 10:31:51 -0500
+Served asset /line_items.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2013-02-13 10:31:51 -0500
+Served asset /products.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/productshomepage.css?body=1" for 127.0.0.1 at 2013-02-13 10:31:51 -0500
+Served asset /productshomepage.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-13 10:31:51 -0500
+Served asset /scaffolds.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/store.css?body=1" for 127.0.0.1 at 2013-02-13 10:31:51 -0500
+Served asset /store.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-13 10:31:51 -0500
+Served asset /jquery.js - 200 OK (5ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-13 10:31:51 -0500
+Served asset /jquery_ujs.js - 200 OK (4ms)
+
+
+Started GET "/assets/carts.js?body=1" for 127.0.0.1 at 2013-02-13 10:31:51 -0500
+Served asset /carts.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-02-13 10:31:51 -0500
+Served asset /home.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2013-02-13 10:31:51 -0500
+Served asset /line_items.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2013-02-13 10:31:51 -0500
+Served asset /products.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/productshomepage.js?body=1" for 127.0.0.1 at 2013-02-13 10:31:51 -0500
+Served asset /productshomepage.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2013-02-13 10:31:51 -0500
+Served asset /store.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-13 10:31:51 -0500
+Served asset /application.js - 304 Not Modified (48ms)
+
+
+Started GET "/assets/humming-bird.jpeg" for 127.0.0.1 at 2013-02-13 10:31:51 -0500
+Served asset /humming-bird.jpeg - 304 Not Modified (3ms)
+
+
+Started GET "/products?prodtype=Picture" for 127.0.0.1 at 2013-02-13 10:31:57 -0500
+Processing by ProductsController#index as HTML
+  Parameters: {"prodtype"=>"Picture"}
+  [1m[36mProduct Load (0.2ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."ProdType" = 'Picture'[0m
+  Rendered products/index.html.erb within layouts/application (59.9ms)
+Completed 200 OK in 159ms (Views: 62.3ms | ActiveRecord: 11.4ms)
+
+
+Started GET "/assets/carts.css?body=1" for 127.0.0.1 at 2013-02-13 10:31:58 -0500
+Served asset /carts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-13 10:31:58 -0500
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-02-13 10:31:58 -0500
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2013-02-13 10:31:58 -0500
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/productshomepage.css?body=1" for 127.0.0.1 at 2013-02-13 10:31:58 -0500
+Served asset /productshomepage.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2013-02-13 10:31:58 -0500
+Served asset /line_items.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-13 10:31:58 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.css?body=1" for 127.0.0.1 at 2013-02-13 10:31:58 -0500
+Served asset /store.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-13 10:31:58 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-13 10:31:58 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/carts.js?body=1" for 127.0.0.1 at 2013-02-13 10:31:58 -0500
+Served asset /carts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-02-13 10:31:58 -0500
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2013-02-13 10:31:58 -0500
+Served asset /line_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2013-02-13 10:31:58 -0500
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/productshomepage.js?body=1" for 127.0.0.1 at 2013-02-13 10:31:58 -0500
+Served asset /productshomepage.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2013-02-13 10:31:58 -0500
+Served asset /store.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-13 10:31:58 -0500
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/waterRavine.jpg" for 127.0.0.1 at 2013-02-13 10:31:58 -0500
+Served asset /waterRavine.jpg - 304 Not Modified (2ms)
+
+
+Started GET "/assets/wave.jpg" for 127.0.0.1 at 2013-02-13 10:31:58 -0500
+Served asset /wave.jpg - 304 Not Modified (3ms)
+
+
+Started GET "/assets/Stallions.jpg" for 127.0.0.1 at 2013-02-13 10:31:58 -0500
+Served asset /Stallions.jpg - 304 Not Modified (2ms)
+
+
+Started GET "/assets/lava.jpg" for 127.0.0.1 at 2013-02-13 10:31:58 -0500
+Served asset /lava.jpg - 304 Not Modified (3ms)
+
+
+Started GET "/assets/humming-bird.jpeg" for 127.0.0.1 at 2013-02-13 10:31:58 -0500
+Served asset /humming-bird.jpeg - 304 Not Modified (0ms)
+
+
+Started GET "/home/naturehomepage" for 127.0.0.1 at 2013-02-13 10:32:02 -0500
+Processing by HomeController#naturehomepage as HTML
+  Rendered home/naturehomepage.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 15ms (Views: 15.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-13 10:32:02 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/productshomepage.css?body=1" for 127.0.0.1 at 2013-02-13 10:32:02 -0500
+Served asset /productshomepage.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/carts.css?body=1" for 127.0.0.1 at 2013-02-13 10:32:02 -0500
+Served asset /carts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2013-02-13 10:32:02 -0500
+Served asset /line_items.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2013-02-13 10:32:02 -0500
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-02-13 10:32:02 -0500
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-13 10:32:02 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.css?body=1" for 127.0.0.1 at 2013-02-13 10:32:02 -0500
+Served asset /store.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-13 10:32:02 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-13 10:32:02 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/carts.js?body=1" for 127.0.0.1 at 2013-02-13 10:32:02 -0500
+Served asset /carts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-02-13 10:32:02 -0500
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2013-02-13 10:32:02 -0500
+Served asset /line_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2013-02-13 10:32:02 -0500
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/productshomepage.js?body=1" for 127.0.0.1 at 2013-02-13 10:32:02 -0500
+Served asset /productshomepage.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2013-02-13 10:32:02 -0500
+Served asset /store.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-13 10:32:02 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/humming-bird.jpeg" for 127.0.0.1 at 2013-02-13 10:32:02 -0500
+Served asset /humming-bird.jpeg - 304 Not Modified (0ms)
+
+
+Started GET "/products?prodtype=Recycled+Art" for 127.0.0.1 at 2013-02-13 10:32:05 -0500
+Processing by ProductsController#index as HTML
+  Parameters: {"prodtype"=>"Recycled Art"}
+  [1m[35mProduct Load (0.3ms)[0m  SELECT "products".* FROM "products" WHERE "products"."ProdType" = 'Recycled Art'
+  Rendered products/index.html.erb within layouts/application (12.6ms)
+Completed 200 OK in 28ms (Views: 27.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/carts.css?body=1" for 127.0.0.1 at 2013-02-13 10:32:05 -0500
+Served asset /carts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-13 10:32:05 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-02-13 10:32:05 -0500
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/productshomepage.css?body=1" for 127.0.0.1 at 2013-02-13 10:32:05 -0500
+Served asset /productshomepage.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2013-02-13 10:32:05 -0500
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2013-02-13 10:32:05 -0500
+Served asset /line_items.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-13 10:32:05 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.css?body=1" for 127.0.0.1 at 2013-02-13 10:32:05 -0500
+Served asset /store.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-13 10:32:05 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-13 10:32:05 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/carts.js?body=1" for 127.0.0.1 at 2013-02-13 10:32:05 -0500
+Served asset /carts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-02-13 10:32:05 -0500
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2013-02-13 10:32:05 -0500
+Served asset /line_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2013-02-13 10:32:05 -0500
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/productshomepage.js?body=1" for 127.0.0.1 at 2013-02-13 10:32:05 -0500
+Served asset /productshomepage.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2013-02-13 10:32:05 -0500
+Served asset /store.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-13 10:32:05 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blue_butterfly.jpg" for 127.0.0.1 at 2013-02-13 10:32:05 -0500
+Served asset /blue_butterfly.jpg - 304 Not Modified (3ms)
+
+
+Started GET "/assets/butterfly2.jpg" for 127.0.0.1 at 2013-02-13 10:32:05 -0500
+Served asset /butterfly2.jpg - 304 Not Modified (3ms)
+
+
+Started GET "/assets/butterfly3.jpg" for 127.0.0.1 at 2013-02-13 10:32:05 -0500
+Served asset /butterfly3.jpg - 304 Not Modified (4ms)
+
+
+Started GET "/assets/junk-robot_1.jpg" for 127.0.0.1 at 2013-02-13 10:32:05 -0500
+Served asset /junk-robot_1.jpg - 304 Not Modified (2ms)
+
+
+Started GET "/assets/Sam_save.jpg" for 127.0.0.1 at 2013-02-13 10:32:05 -0500
+Served asset /Sam_save.jpg - 304 Not Modified (2ms)
+
+
+Started GET "/assets/humming-bird.jpeg" for 127.0.0.1 at 2013-02-13 10:32:05 -0500
+Served asset /humming-bird.jpeg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-02-13 10:46:54 -0500
+Processing by HomeController#naturehomepage as HTML
+  Rendered home/naturehomepage.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 18ms (Views: 17.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-13 10:46:54 -0500
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/carts.css?body=1" for 127.0.0.1 at 2013-02-13 10:46:54 -0500
+Served asset /carts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-02-13 10:46:54 -0500
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2013-02-13 10:46:55 -0500
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2013-02-13 10:46:55 -0500
+Served asset /line_items.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-13 10:46:55 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/productshomepage.css?body=1" for 127.0.0.1 at 2013-02-13 10:46:55 -0500
+Served asset /productshomepage.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.css?body=1" for 127.0.0.1 at 2013-02-13 10:46:55 -0500
+Served asset /store.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-13 10:46:55 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-13 10:46:55 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/carts.js?body=1" for 127.0.0.1 at 2013-02-13 10:46:55 -0500
+Served asset /carts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-02-13 10:46:55 -0500
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2013-02-13 10:46:55 -0500
+Served asset /line_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2013-02-13 10:46:55 -0500
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/productshomepage.js?body=1" for 127.0.0.1 at 2013-02-13 10:46:55 -0500
+Served asset /productshomepage.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2013-02-13 10:46:55 -0500
+Served asset /store.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-13 10:46:55 -0500
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/humming-bird.jpeg" for 127.0.0.1 at 2013-02-13 10:46:55 -0500
+Served asset /humming-bird.jpeg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-02-13 10:46:58 -0500
+Processing by HomeController#naturehomepage as HTML
+  Rendered home/naturehomepage.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 17ms (Views: 16.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-13 10:46:58 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2013-02-13 10:46:58 -0500
+Served asset /line_items.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/carts.css?body=1" for 127.0.0.1 at 2013-02-13 10:46:58 -0500
+Served asset /carts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-02-13 10:46:58 -0500
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2013-02-13 10:46:58 -0500
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/productshomepage.css?body=1" for 127.0.0.1 at 2013-02-13 10:46:58 -0500
+Served asset /productshomepage.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-13 10:46:58 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.css?body=1" for 127.0.0.1 at 2013-02-13 10:46:58 -0500
+Served asset /store.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-13 10:46:58 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-13 10:46:58 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/carts.js?body=1" for 127.0.0.1 at 2013-02-13 10:46:58 -0500
+Served asset /carts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-02-13 10:46:58 -0500
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2013-02-13 10:46:58 -0500
+Served asset /line_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2013-02-13 10:46:58 -0500
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/productshomepage.js?body=1" for 127.0.0.1 at 2013-02-13 10:46:58 -0500
+Served asset /productshomepage.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2013-02-13 10:46:58 -0500
+Served asset /store.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-13 10:46:58 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/humming-bird.jpeg" for 127.0.0.1 at 2013-02-13 10:46:58 -0500
+Served asset /humming-bird.jpeg - 304 Not Modified (0ms)
